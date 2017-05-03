@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
     moduleId: module.id,
     selector: 'footer-nav',
     templateUrl: 'footer.html',
-    styleUrls: ['./footer.css']
+    styleUrls: ['./footer.scss']
 })
 
 export class FooterComponent {
