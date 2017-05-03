@@ -1,4 +1,8 @@
-# NgMaterialSeed2
+# Angular Material Seed
+
+I am using angular cli as start. I clubbed it with  angular (angular 2 formally known as angular) material (https://material.angular.io/) 
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-beta.32.3.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.1.
 
