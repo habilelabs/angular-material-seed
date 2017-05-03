@@ -9,6 +9,7 @@ import  {SharedModule} from './shared/shared.module';
 import {TopNavComponent} from './shared/index';
 import {FooterComponent} from './shared/index';
 import { LoginModule } from './login/index';
+import { HomeModule } from './home/index';
 import { CustomMaterialModule } from './custom-material/index';
 
 import { routes } from './app.routes';
@@ -27,7 +28,8 @@ import { routes } from './app.routes';
     RouterModule.forRoot(routes),
     CustomMaterialModule,
     SharedModule,
-    LoginModule
+    LoginModule,
+    HomeModule
   ],
   providers: [],
   bootstrap: [AppComponent],

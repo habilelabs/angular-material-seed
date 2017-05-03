@@ -1,6 +1,7 @@
 import { Routes } from '@angular/router';
-import { LoginRoutes, LoginComponent } from './login/index';
+import { LoginRoutes} from './login/index';
+import { HomeRoutes } from './home/index';
 export const routes: Routes = [
   ...LoginRoutes,
-	{ path: '**', component: LoginComponent }
+  ...HomeRoutes
 ];
