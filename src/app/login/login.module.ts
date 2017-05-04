@@ -3,8 +3,9 @@ import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { LoginComponent } from './login.component';
+import { CustomMaterialModule } from './../custom-material/index';
 @NgModule({
-  imports: [FormsModule,CommonModule, RouterModule],
+  imports: [FormsModule,CommonModule, RouterModule, CustomMaterialModule],
   declarations: [LoginComponent],
   exports: [LoginComponent]
 })

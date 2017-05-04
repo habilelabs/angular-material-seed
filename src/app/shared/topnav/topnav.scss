@@ -13,24 +13,3 @@ $color-fff:#fff;
     }
   }
 }
-header.header-background{
-  width: 100%; float: left; margin-bottom: 40px; background: url(../../../assets/images/header-bg.svg) 50% repeat-x, #00bcd4; padding: 170px 0 140px;
-  .header-section{
-    text-align: center; font-family: $font-stack;
-    .header-headline{
-      color: $color-fff;
-      h1{
-        font-weight: 500; font-size: 32px;
-      }
-      h2{
-        font-weight: 300; font-size: 18px;
-      }
-    }
-    .header-start{
-      margin-top: 50px;
-      a.header-button{
-        color: $color-00b; padding: 5px 35px; font-size: 16px; text-transform: uppercase;
-      }
-    }
-  }
-}

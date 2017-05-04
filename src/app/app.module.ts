@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule, Routes } from '@angular/router';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import  {SharedModule} from './shared/shared.module';
@@ -25,6 +26,7 @@ import { routes } from './app.routes';
     FormsModule,
     HttpModule,
     RouterModule,
+    BrowserAnimationsModule,
     RouterModule.forRoot(routes),
     CustomMaterialModule,
     SharedModule,

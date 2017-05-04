@@ -3,6 +3,9 @@ $color-00b:#00bcd4;
 $color-fff:#fff;
 
 .docs-footer{
+  width: 100%;
+  float: left;
+  box-sizing: border-box;
   margin-top: 40px;
   padding: 0 12px;
   font-size: 12px;
