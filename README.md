@@ -2,9 +2,13 @@
 
 I am using angular cli as start. I clubbed it with  angular (angular 2 formally known as angular) material (https://material.angular.io/) 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-beta.32.3.
+#Why we created this seed
+
+This is a quick start seed project for angular.io and angular material UI. 
+This project demonstrate sample project structure, router and modular structure. 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.1.
+Please install [Angular CLI](https://github.com/angular/angular-cli) before starting this.
 
 ## Development server
 
