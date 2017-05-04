@@ -4,7 +4,7 @@ $color-fff:#fff;
 $color-656:#656565;
 
 header.header-background{
-  width: 100%; float: left; margin-bottom: 40px; background: url(../../assets/images/header-bg.svg) 50% repeat-x, #00bcd4; padding: 170px 0 140px;
+  width: 100%; float: left; margin-bottom: 40px; background: url('../../assets/images/header-bg.svg') 50% repeat-x, #00bcd4; padding: 170px 0 140px;
   .header-section{
     text-align: center; font-family: $font-stack;
     .header-headline{
