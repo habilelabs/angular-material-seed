@@ -5,6 +5,12 @@ $color-fff:#fff;
 .pageFullNav{
   .docs-navbar{
     background: $color-00b; padding: 8px 16px;
+    .footer-logo{
+      float: left; margin-right: 15px;
+      img{
+        width: 40px;
+      }
+    }
     a{
       color: $color-fff; text-transform: uppercase;
     }
