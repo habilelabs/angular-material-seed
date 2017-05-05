@@ -1,7 +1,4 @@
-$font-stack: Roboto,"Helvetica Neue",sans-serif;
-$color-00b:#00bcd4;
-$color-fff:#fff;
-
+@import '../../../theme/variables.scss';
 .pageFullNav{
   .docs-navbar{
     background: $color-00b; padding: 8px 16px;

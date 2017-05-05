@@ -1,5 +1,5 @@
 /**
- * This barrel file provides the export for the lazy loaded HomeComponent.
+ * This barrel file provides the export for the lazy loaded LoginModule.
  */
 export * from './login.component';
 export  * from './login.route';

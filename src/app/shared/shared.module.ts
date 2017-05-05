@@ -1,3 +1,7 @@
+/**
+ * Shared module. We plan to use this in whole application
+ * @author Shankar Morwal
+ */
 import { NgModule, ModuleWithProviders } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';

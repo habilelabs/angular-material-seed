@@ -1,7 +1,4 @@
-$font-stack: Roboto,"Helvetica Neue",sans-serif;
-$color-00b:#00bcd4;
-$color-fff:#fff;
-
+@import '../../../theme/variables.scss';
 .docs-footer{
   width: 100%;
   float: left;

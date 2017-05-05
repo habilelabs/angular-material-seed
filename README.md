@@ -1,4 +1,4 @@
-# Angular Material Seed
+# Angular(ng) Material Seed / ng material boilerplate
 
 I am using angular cli as start. I clubbed it with  angular (angular 2 formally known as angular) material (https://material.angular.io/) 
 
