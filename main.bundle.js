@@ -68,11 +68,11 @@ AppComponent = __decorate([
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(39);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(71);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_router__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_router__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_platform_browser__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_platform_browser_animations__ = __webpack_require__(111);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_component__ = __webpack_require__(112);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__shared_shared_module__ = __webpack_require__(76);
@@ -88,6 +88,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+/**
+ * Main module file
+ */
 
 
 
@@ -108,19 +111,19 @@ var AppModule = (function () {
     return AppModule;
 }());
 AppModule = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["b" /* NgModule */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["b" /* NgModule */])({
         declarations: [
             __WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* AppComponent */],
             __WEBPACK_IMPORTED_MODULE_8__shared_index__["a" /* TopNavComponent */],
             __WEBPACK_IMPORTED_MODULE_8__shared_index__["b" /* FooterComponent */]
         ],
         imports: [
-            __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
-            __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormsModule */],
-            __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* HttpModule */],
-            __WEBPACK_IMPORTED_MODULE_4__angular_router__["a" /* RouterModule */],
+            __WEBPACK_IMPORTED_MODULE_1__angular_forms__["a" /* FormsModule */],
+            __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* HttpModule */],
+            __WEBPACK_IMPORTED_MODULE_3__angular_router__["a" /* RouterModule */],
+            __WEBPACK_IMPORTED_MODULE_4__angular_platform_browser__["a" /* BrowserModule */],
             __WEBPACK_IMPORTED_MODULE_5__angular_platform_browser_animations__["a" /* BrowserAnimationsModule */],
-            __WEBPACK_IMPORTED_MODULE_4__angular_router__["a" /* RouterModule */].forRoot(__WEBPACK_IMPORTED_MODULE_12__app_routes__["a" /* routes */]),
+            __WEBPACK_IMPORTED_MODULE_3__angular_router__["a" /* RouterModule */].forRoot(__WEBPACK_IMPORTED_MODULE_12__app_routes__["a" /* routes */]),
             __WEBPACK_IMPORTED_MODULE_11__custom_material_index__["a" /* CustomMaterialModule */],
             __WEBPACK_IMPORTED_MODULE_7__shared_shared_module__["a" /* SharedModule */],
             __WEBPACK_IMPORTED_MODULE_9__login_index__["a" /* LoginModule */],
@@ -163,6 +166,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+/**
+ * this module is intended to be included only required componants from angular material library
+ */
 
 
 //add only required modules
@@ -480,7 +486,7 @@ module.exports = "<top-nav></top-nav>\r\n<router-outlet></router-outlet>\r\n<foo
 /***/ 186:
 /***/ (function(module, exports) {
 
-module.exports = "<header class=\"header-background\">\r\n  <div class=\"header-section\">\r\n    <div class=\"header-headline\">\r\n      <h1>Angular Material</h1>\r\n      <h2> Material Design components for Angular apps</h2>\r\n    </div>\r\n    <div class=\"header-start\">\r\n      <a class=\"header-button mat-raised-button\" md-raised-button=\"\" aria-disabled=\"false\" tabindex=\"0\" target=\"_blank\"\r\n         href=\"https://github.com/habilelabs/angular-material-seed/blob/master/README.md\"><span class=\"mat-button-wrapper\">Get started</span>\r\n        <div class=\"mat-button-ripple mat-ripple\" md-ripple=\"\"></div>\r\n        <div class=\"mat-button-focus-overlay\"></div>\r\n      </a>\r\n    </div>\r\n  </div>\r\n</header>\r\n<div class=\"docs-homepage-promo\">\r\n  <div class=\"docs-homepage-row\">\r\n    <div class=\"docs-homepage-promo-img\">\r\n      <img alt=\"Sprint from Zero to App\" src=\"assets/images/sprintzerotoapp.svg\">\r\n    </div>\r\n    <div class=\"docs-homepage-promo-desc\">\r\n      <h2>Sprint from Zero to App</h2>\r\n      <p>Hit the ground running with comprehensive, modern UI components that work across\r\n        the web, mobile and desktop</p>\r\n    </div>\r\n  </div>\r\n  <div class=\"docs-homepage-row docs-homepage-reverse-row\">\r\n    <div class=\"docs-homepage-promo-img\">\r\n      <img alt=\"Fast and Consistent\" src=\"assets/images/fastandconsistent.svg\">\r\n    </div>\r\n    <div class=\"docs-homepage-promo-desc\">\r\n      <h2>Fast and Consistent</h2>\r\n      <p>Finely tuned performance, because every millisecond counts. Fully tested across\r\n        modern browsers.</p>\r\n    </div>\r\n  </div>\r\n  <div class=\"docs-homepage-row\">\r\n    <div class=\"docs-homepage-promo-img\">\r\n      <img alt=\"Versatile\" src=\"assets/images/versatile.svg\">\r\n    </div>\r\n    <div class=\"docs-homepage-promo-desc\">\r\n      <h2>Versatile</h2>\r\n      <p>Themable, for when you need to stay on brand or just have a favorite color.\r\n        Accessible and internationalized so that all users are welcome.</p>\r\n    </div>\r\n  </div>\r\n  <div class=\"docs-homepage-row docs-homepage-reverse-row\">\r\n    <div class=\"docs-homepage-promo-img\">\r\n      <img alt=\"Optimized for Angular\" src=\"assets/images/optimized.svg\">\r\n    </div>\r\n    <div class=\"docs-homepage-promo-desc\">\r\n      <h2>Optimized for Angular</h2>\r\n      <p>Built by the Angular team to integrate seamlessly with Angular.</p>\r\n    </div>\r\n  </div>\r\n  <div class=\"docs-homepage-bottom-start\">\r\n    <a class=\"docs-button mat-raised-button\" md-raised-button=\"\" aria-disabled=\"false\" tabindex=\"0\" target=\"_blank\"\r\n       href=\"https://github.com/habilelabs/angular-material-seed/blob/master/README.md\"><span class=\"mat-button-wrapper\">Get started</span>\r\n      <div class=\"mat-button-ripple mat-ripple\" md-ripple=\"\"></div>\r\n      <div class=\"mat-button-focus-overlay\"></div>\r\n    </a>\r\n  </div>\r\n</div>\r\n"
+module.exports = "<header class=\"header-background\">\r\n  <div class=\"header-section\">\r\n    <div class=\"header-headline\">\r\n      <h1>Ng Material Seed</h1>\r\n      <h2> Ng-material-boilerplate for building Angular Material apps</h2>\r\n    </div>\r\n    <div class=\"header-start\">\r\n      <a class=\"header-button mat-raised-button\" md-raised-button=\"\" aria-disabled=\"false\" tabindex=\"0\" target=\"_blank\"\r\n         href=\"https://github.com/habilelabs/angular-material-seed/blob/master/README.md\"><span class=\"mat-button-wrapper\">Get started</span>\r\n        <div class=\"mat-button-ripple mat-ripple\" md-ripple=\"\"></div>\r\n        <div class=\"mat-button-focus-overlay\"></div>\r\n      </a>\r\n    </div>\r\n  </div>\r\n</header>\r\n<div class=\"docs-homepage-promo\">\r\n  <div class=\"docs-homepage-row\">\r\n    <div class=\"docs-homepage-promo-img\">\r\n      <img alt=\"Sprint from Zero to App\" src=\"assets/images/sprintzerotoapp.svg\">\r\n    </div>\r\n    <div class=\"docs-homepage-promo-desc\">\r\n      <h2>Sprint from Zero to App</h2>\r\n      <p>Hit the ground running with comprehensive, modern UI components that work across\r\n        the web, mobile and desktop</p>\r\n    </div>\r\n  </div>\r\n  <div class=\"docs-homepage-row docs-homepage-reverse-row\">\r\n    <div class=\"docs-homepage-promo-img\">\r\n      <img alt=\"Fast and Consistent\" src=\"assets/images/fastandconsistent.svg\">\r\n    </div>\r\n    <div class=\"docs-homepage-promo-desc\">\r\n      <h2>Fast and Consistent</h2>\r\n      <p>Finely tuned performance, because every millisecond counts. Fully tested across\r\n        modern browsers.</p>\r\n    </div>\r\n  </div>\r\n  <div class=\"docs-homepage-row\">\r\n    <div class=\"docs-homepage-promo-img\">\r\n      <img alt=\"Versatile\" src=\"assets/images/versatile.svg\">\r\n    </div>\r\n    <div class=\"docs-homepage-promo-desc\">\r\n      <h2>Versatile</h2>\r\n      <p>Themable, for when you need to stay on brand or just have a favorite color.\r\n        Accessible and internationalized so that all users are welcome.</p>\r\n    </div>\r\n  </div>\r\n  <div class=\"docs-homepage-row docs-homepage-reverse-row\">\r\n    <div class=\"docs-homepage-promo-img\">\r\n      <img alt=\"Optimized for Angular\" src=\"assets/images/optimized.svg\">\r\n    </div>\r\n    <div class=\"docs-homepage-promo-desc\">\r\n      <h2>Optimized for Angular</h2>\r\n      <p>Built by the Angular team to integrate seamlessly with Angular.</p>\r\n    </div>\r\n  </div>\r\n  <div class=\"docs-homepage-bottom-start\">\r\n    <a class=\"docs-button mat-raised-button\" md-raised-button=\"\" aria-disabled=\"false\" tabindex=\"0\" target=\"_blank\"\r\n       href=\"https://github.com/habilelabs/angular-material-seed/blob/master/README.md\"><span class=\"mat-button-wrapper\">Get started</span>\r\n      <div class=\"mat-button-ripple mat-ripple\" md-ripple=\"\"></div>\r\n      <div class=\"mat-button-focus-overlay\"></div>\r\n    </a>\r\n  </div>\r\n</div>\r\n"
 
 /***/ }),
 
@@ -544,7 +550,7 @@ module.exports = __webpack_require__(104);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login_module__ = __webpack_require__(118);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_2__login_module__["a"]; });
 /**
- * This barrel file provides the export for the lazy loaded HomeComponent.
+ * This barrel file provides the export for the lazy loaded LoginModule.
  */
 
 
@@ -559,6 +565,9 @@ module.exports = __webpack_require__(104);
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__custom_material_module__ = __webpack_require__(115);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__custom_material_module__["a"]; });
+/**
+ * This barrel file provides the export for the lazy loaded custom material.
+ */
 
 //# sourceMappingURL=index.js.map
 
@@ -674,6 +683,10 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+/**
+ * Shared module. We plan to use this in whole application
+ * @author Shankar Morwal
+ */
 
 
 

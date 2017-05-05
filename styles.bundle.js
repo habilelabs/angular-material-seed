@@ -133,7 +133,7 @@ exports = module.exports = __webpack_require__(17)(false);
 exports.i(__webpack_require__(177), "");
 
 // module
-exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\nbody {\n  margin: 0px;\n  padding: 0px; }\n", ""]);
+exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\nbody {\n  margin: 0px;\n  padding: 0px; }\n\n/**\r\nBy default i included deeppurple-amber theme. you can include you any prebuilt or create your own\r\n */\n", ""]);
 
 // exports
 
