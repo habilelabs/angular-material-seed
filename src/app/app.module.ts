@@ -9,7 +9,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
-import  {SharedModule} from './shared/shared.module';
+import {SharedModule} from './shared/shared.module';
 import {TopNavComponent} from './shared/index';
 import {FooterComponent} from './shared/index';
 import { LoginModule } from './login/index';

@@ -2,10 +2,10 @@
  * this module is intended to be included only required componants from angular material library
  */
 import { NgModule } from '@angular/core';
-import {MdButtonModule, MdCheckboxModule, MdInputModule} from '@angular/material';
-//add only required modules
+import {MatButtonModule, MatCheckboxModule, MatInputModule} from '@angular/material';
+// add only required modules
 @NgModule({
-  imports: [MdButtonModule, MdCheckboxModule,MdInputModule],
-  exports: [MdButtonModule, MdCheckboxModule,MdInputModule]
+  imports: [MatButtonModule, MatCheckboxModule, MatInputModule],
+  exports: [MatButtonModule, MatCheckboxModule, MatInputModule]
 })
 export class CustomMaterialModule { }

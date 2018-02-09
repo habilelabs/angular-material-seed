@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { routes } from './app.routes';
 import { LoginModule } from './login/index';
-import {TopNavComponent,FooterComponent} from './shared/index';
+import {TopNavComponent, FooterComponent} from './shared/index';
 import { HomeModule } from './home/index';
 import { APP_BASE_HREF } from '@angular/common';
 describe('AppComponent', () => {
